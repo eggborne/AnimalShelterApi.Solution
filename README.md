@@ -178,6 +178,7 @@ Confirm the animal was deleted by requesting GET http://localhost:5000/api/anima
 | /{id} | Integer | Not Required | Returns one animal with the specified ID |
 
 ## Example Queries
+Example Query:
 ```
 https://localhost:5001/api/animals?species=dog&breed=Corgi
 ```
@@ -201,6 +202,7 @@ Example Response:
 ]
 ```
 ***
+Example Query:
 ```
 https://localhost:5001/api/animals?species=cat&page=2&pageSize=3
 ```
@@ -231,6 +233,7 @@ Example Response:
   ]
 ```
 ***
+Example Query:
 ```
 https://localhost:5001/api/animals/6
 ```
