@@ -8,9 +8,12 @@ A C#/ASP.NET/EFCore API whose endpoints produce a list of available animal shelt
 
 ## Technologies Used
 * C#
-* .NET
-* ASP.NET
+* ASP.NET Core
 * Entity Framework Core
+* Pomelo.EntityFrameworkCore.MySql
+* Swashbuckle.AspNetCore
+
+The API was developed using the Microsoft.NET.Sdk.Web project SDK and targets the .NET 6.0 framework. It utilizes the Swashbuckle.AspNetCore package for generating Swagger documentation and the Pomelo.EntityFrameworkCore.MySql package for working with a MySQL database. The API's data layer is implemented using Entity Framework Core, with the Microsoft.EntityFrameworkCore and Microsoft.EntityFrameworkCore.Design packages included as dependencies.
 
 ## Further Exploration: Pagination
 
