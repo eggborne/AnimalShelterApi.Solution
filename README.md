@@ -2,7 +2,7 @@
 #### Special Project #12 for Epicodus, 31 March 2023
 ### by Mike Donovan
 
-_A client app which consumes this api can be found at [https://github.com/eggborne/AnimalShelterClient.Solution](https://github.com/eggborne/AnimalShelterClient.Solution)_
+_A client app which consumes this API can be found at [https://github.com/eggborne/AnimalShelterClient.Solution](https://github.com/eggborne/AnimalShelterClient.Solution)_
 
 ## Description
 
