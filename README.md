@@ -92,7 +92,7 @@ GET http://localhost:5000/api/animals/{id}
 ```
 * _Returns an animal with the matching animalId_
 * _Replace {id} with the animalId you would like to GET_
-* _Tip: You can find all animalId's from requesting GET http://localhost:5000/api/animals/ end point_
+* _Tip: You can find all animalId's from requesting GET http://localhost:5000/api/animals/_
 
 Example Return Response for animalId = 5:
 ```
@@ -199,6 +199,7 @@ Example Response:
     "name":"Winston"
   }
 ]
+```
 
 ```
 https://localhost:5001/api/animals?species=cat&page=2&pageSize=3
@@ -228,6 +229,7 @@ Example Response:
       "name": "Linus"
     }
   ]
+```
 
 ```
 https://localhost:5001/api/animals/6
