@@ -200,7 +200,7 @@ Example Response:
   }
 ]
 ```
-
+***
 ```
 https://localhost:5001/api/animals?species=cat&page=2&pageSize=3
 ```
@@ -230,7 +230,7 @@ Example Response:
     }
   ]
 ```
-
+***
 ```
 https://localhost:5001/api/animals/6
 ```
