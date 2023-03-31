@@ -53,7 +53,7 @@ Additionally, the API provides pagination metadata in the response headers. The 
 11. Run `dotnet watch run` in the command line to start the project in development mode with a watcher.
 12. Open the browser to _https://localhost:5001_. If you cannot access localhost:5001 it is likely because you have not configured a .NET developer security certificate for HTTPS. For more information, [visit the Microsoft documentation on dev-certs](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-dev-certs).
 
-## API Endpoint Guide and Example
+## API Endpoint Guide and Examples
 ```
 GET http://localhost:5000/api/animals/
 ```
