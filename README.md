@@ -2,6 +2,8 @@
 #### Special Project #12 for Epicodus, 31 March 2023
 ### by Mike Donovan
 
+_A client app which consumes this api can be found at [https://github.com/eggborne/AnimalShelterClient.Solution](https://github.com/eggborne/AnimalShelterClient.Solution)_
+
 ## Description
 
 A C#/ASP.NET/EFCore API whose endpoints produce a list of available animal shelter animals. Includes custom parameters and pagination.
