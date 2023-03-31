@@ -94,7 +94,7 @@ GET http://localhost:5000/api/animals/{id}
 ```
 * _Returns an animal with the matching animalId_
 * _Replace {id} with the animalId you would like to GET_
-* _Tip: You can find all animalId's from requesting GET http://localhost:5000/api/animals/_
+* _Tip: You can find all animalIds from requesting GET http://localhost:5000/api/animals/_
 
 Example Return Response for animalId = 5:
 ```
