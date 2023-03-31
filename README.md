@@ -88,7 +88,7 @@ Example Return Response:
     ... etc.
 ]
 ```
-
+***
 ```
 GET http://localhost:5000/api/animals/{id}
 ```
@@ -106,7 +106,7 @@ Example Return Response for animalId = 5:
   "name": "Ginger"
 }
 ```
-
+***
 ```
 POST http://localhost:5000/api/animals/
 ```
@@ -137,7 +137,7 @@ Example Return Response:
   "name": "Buster"
 }
 ```
-
+***
 ```
 PUT http://localhost:5000/api/animals/{id}
 ```
@@ -160,6 +160,7 @@ Example Request Body for animalId = 2:
 ```
 Click Send. You should then be able to request `GET http://localhost:5000/api/animals/2` and see a response that reflects the changes you made.
 
+***
 ```
 DELETE http://localhost:5000/api/animals/{id}
 ```
