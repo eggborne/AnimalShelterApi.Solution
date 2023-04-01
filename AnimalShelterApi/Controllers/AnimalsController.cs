@@ -45,6 +45,7 @@ namespace AnimalShelterApi.Controllers
 
         // Retrieve the data from your data source, applying the pagination parameters.
         List<Animal> animals = await query
+          .OrderByDescending(a => a.AnimalId)
           .Skip(skip)
           .Take(pageSize)
           .ToListAsync();
